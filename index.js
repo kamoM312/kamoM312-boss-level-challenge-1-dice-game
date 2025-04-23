@@ -7,3 +7,6 @@ function randomNumberGenerator () {
 
 randomNumber1 = randomNumberGenerator();
 console.log(randomNumber1);
+
+document.querySelector("img.img1").setAttribute("src", `./images/dice${randomNumber1}.png`);
+
